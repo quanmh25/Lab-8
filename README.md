@@ -2,7 +2,7 @@
 
 Лабораторная работа №8.
 
-Работа с OpenCV
+Работа с OpenCV (Open Computer Vision Library)
 
 **Задание**
 
