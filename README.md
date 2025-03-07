@@ -34,3 +34,7 @@
 **Полезные ссылки**
 
 Туториал по OpenCV: https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
+
+https://fptshop.com.vn/tin-tuc/danh-gia/opencv-la-gi-168801
+
+Xử lý hình ảnh: https://vinbigdata.com/camera-ai/xu-ly-hinh-anh-trong-python-tu-thuat-toan-den-cong-cu.html
