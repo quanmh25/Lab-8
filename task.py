@@ -4,7 +4,7 @@ import os
 
 # image_path = os.path.join(os.path.dirname(__file__), 'variant-2.png')
 image_path = "d:\\ITMO\\first_year\\Python\\Lab-8\\images\\variant-2.png"
-image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)qqq
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 
@@ -92,6 +92,7 @@ def video_processing():
     cam.release()
     cv2.destroyAllWindows()
 
+
 def taskExtra():
     # Load the background image and the fly image
     background = cv2.imread(image_path)
@@ -146,7 +147,7 @@ def taskExtra():
 
 
 if __name__ == '__main__':
-    # taskFirst()
-
+    
+    image_processing()
     video_processing()
     taskExtra()
