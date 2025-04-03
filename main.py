@@ -27,7 +27,7 @@ def image_processing():
 
 
 def video_processing():
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     down_points = (640, 480)
     i = 0
     while True:
