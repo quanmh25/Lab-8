@@ -1,0 +1,17 @@
+
+###   Hàm cv2.threshold() trong OpenCV được sử dụng để chuyển đổi một ảnh xám (grayscale) thành ảnh nhị phân (binary image).
+    Hàm này giúp làm nổi bật các đối tượng có mức độ sáng cụ thể trong ảnh, bằng cách gán các pixel có giá trị vượt ngưỡng thành trắng (255) và các pixel còn lại thành đen (0).
+
+Một số kiểu phổ biến:
+
+    cv2.THRESH_BINARY: Nếu giá trị pixel lớn hơn ngưỡng, gán giá trị maxval, ngược lại gán giá trị 0.
+
+    cv2.THRESH_BINARY_INV: Nếu giá trị pixel lớn hơn ngưỡng, gán giá trị 0, ngược lại gán giá trị maxval.
+
+    cv2.THRESH_TRUNC: Nếu giá trị pixel lớn hơn ngưỡng, gán giá trị ngưỡng, ngược lại giữ nguyên giá trị pixel.
+
+    cv2.THRESH_TOZERO: Nếu giá trị pixel lớn hơn ngưỡng, giữ nguyên giá trị pixel, ngược lại gán giá trị 0.
+
+    cv2.THRESH_TOZERO_INV: Nếu giá trị pixel lớn hơn ngưỡng, gán giá trị 0, ngược lại giữ nguyên giá trị pixel.
+
+
